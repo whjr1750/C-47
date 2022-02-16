@@ -66,7 +66,7 @@ function draw() {
 
   if(player.collide(obstacleGroup) && life1.visible == true && life2.visible == true && life3.visible == true){
     life3.visible = false;
-    
+    obstacleGroup.remove();
   }
 
 
